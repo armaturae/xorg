@@ -1,0 +1,6 @@
+setxkbmap -model pc105 -layout us,il -option grp:win_space_toggle
+# feh --bg-scale ~/.wallpapers/*
+#### xscreensaver -nosplash&
+# monitor-config
+# xautolock -time 5 -locker slock &
+exec dbus-launch dwm
