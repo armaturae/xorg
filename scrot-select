@@ -1,0 +1,6 @@
+#!/bin/bash
+
+IMAGE_FILENAME="screenshot-$(date +%F-%H-%M-%N | xargs)"
+IMAGE_PATH="${SCREENSHOT_DIRECTORY:-$HOME}/${IMAGE_FILENAME}"
+
+scrot --select ${IMAGE_PATH}

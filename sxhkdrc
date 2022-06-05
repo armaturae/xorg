@@ -1,5 +1,5 @@
-shift + Print
+meta + shift + p
         flameshot gui -p ~/Screenshots
 
-alt + r
+meta + d
         rofi -show combi
