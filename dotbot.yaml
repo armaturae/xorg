@@ -1,0 +1,11 @@
+- defaults:
+    link:
+        relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.Xresources: Xresources
+    ~/.compton.conf: compton.conf
+    ~/.xinitrc: xinitrc
+    ~/.xsession: xinitrc
