@@ -23,4 +23,4 @@ setxkbmap -model pc105 -layout us,il -option grp:win_space_toggle
 # feh --bg-scale ~/.wallpapers/*
 
 # exec dbus-launch dwm
-exec dbus-launch /home/baraka/Projects/chadwm/chadwm/dwm
+exec dbus-launch /home/baraka/.local/bin/dwm
